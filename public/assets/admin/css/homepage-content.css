@@ -1,0 +1,90 @@
+.group-field:not(:last-of-type){
+    padding-bottom: 30px;
+}
+.group-field-head{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.group-action-btn{
+    padding-left: 10px;
+}
+.group-action-btn a{
+    font-size: 12px;
+    padding: 4px 8px;
+    text-transform: capitalize;
+}
+.group-action-btn i{
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+}
+.gf-body{
+    border-left: dashed 2px grey;
+    border-bottom: dashed 2px grey;
+    margin-left: 20px;
+    padding-left: 20px;;
+}
+.single-field-head{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+.single-field-head .field-label{
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+.single-field-head a.field-delete-btn{
+    margin-left: auto;
+}
+.field-label span{
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.field-label code{
+    font-size: 12px;
+}
+.sta-image-preview{
+    margin-top: 10px;
+}
+.sta-image-preview img{
+    max-height: 200px;
+}
+.field-type-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.field-type-button .form-control{
+    width: 32%;
+}
+.group-field .form-group{
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 10%);
+    padding: 5px 20px 20px;
+}
+.gf-title{
+    text-transform: capitalize;
+}
+.gf-modal{
+    background: #000000c8
+}
+.gf-modal .modal-dialog{
+    width: 400px;
+    margin: auto;
+}
+span.error{
+    color:#f96868;
+    font-style: italic;
+}
+.gf-toggle{
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: auto;
+}
+.gf-toggle.gf-close{
+    transform: rotate(180deg);
+}
+.group-field-head{
+    cursor: move;
+}
